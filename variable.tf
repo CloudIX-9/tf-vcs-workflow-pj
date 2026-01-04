@@ -9,3 +9,9 @@ variable "aws_region" {
   description = "AWS region used for all resources"
   default     = "eu-west-2"
 }
+
+variable "aws_zone" {
+  type        = string
+  description = "AWS zone used for all resources"
+  default     = "eu-west-2a"
+}
