@@ -13,5 +13,5 @@ variable "aws_region" {
 variable "aws_zone" {
   type        = string
   description = "AWS zone used for all resources"
-  default     = "eu-west-2a"
+  default     = "eu-west-2b"
 }
